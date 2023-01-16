@@ -1,19 +1,121 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Livros":[
+        {
+            "Gênero": "Terror",
+            "Autor":"Rosa Amanda Strausz,
+            "Titulo": "Sete Ossos,
+            "id": 1
+        },
+        {
+            "Gênero": "Ficção",
+            "Autor":"Agatha Christie",
+            "Titulo": "E Não Sobrou Nenhum",
+            "id": 2
+        },
+        {
+            "Gênero": "Religião",
+            "Autor":"Alan Kardec",
+            "Titulo": "O Livro dos Espíritos",
+            "id": 3
+        },
+        {
+            "Gênero": "Drama",
+            "Autor": "Nicolas Sparks",
+            "Titulo": "A Última Música",
+            "id": 4
+        }
+    ],
+
+    "Sessões":[
+        {
+            "categoria": "Literatura Estrangeira",
+            "responsavel": "Ana",
+            "corredor": "A",
+            "id": "cat1"
+        },
+        {
+            "categoria": "Administração",
+            "responsavel": "Carlos" ,
+            "corredor": "B",
+            "id": "cat2"
+        },
+        {
+            "categoria": "Revistas e Quadrinhos",
+            "responsavel": "Ana",
+            "corredor": "C",
+            "id": "cat3"
+        },
+        {
+            "categoria": "Cds e DVDs",
+            "responsavel": "Carlos",
+            "corredor": "D",
+            "id": "cat4"
+        }
+    ],
+
+    "Estoque": [
+        {
+            "Operação": "Cadastrar no Sistema",
+            "Operador": "Carmen",
+            "Dias": "segunda, quarta e sexta",
+            "id": 1
+        },
+        {
+            "Operação": "Recebimento de Livros",
+            "Operador": "Carmen",
+            "Dias": "terça e quinta",
+            "id": 2
+        },
+        {
+            "Operação": "Sebo",
+            "Operador": "Carmen",
+            "Promocao": "Sabado",
+            "id": 3
+        },
+        {
+            "Operação": "Troca de Livros",
+            "Operador": "Carmen",
+            "Dias": "Segunda a Sábado",
+            "id": 4
+        }
+    ],
+
+    "Equipe": [
+        {
+            "nome": "Ana",
+            "funcao": "Atendente de Loja/Repositor",
+            "area": "Frente de loja",
+            "id": "colab1"
+        },
+        {
+            "nome": "Carlos",
+            "funcao": "Atendente de Loja/Repositor",
+            "area": "Fundo de Loja",
+            "id": "colab2"
+        },
+        {
+            "nome": "Carmen",
+            "funcao": "Gerente",
+            "area": "adminitrativa",
+            "id": "colab3"
+        },
+        {
+            "nome": "Roberto",
+            "funcao": "Porteiro",
+            "area": "Vitrines/Frente de Loja",
+            "id": "colab4"
+        },
+      {
+            "nome": "Flavia",
+            "funcao": "Caixa",
+            "area": "Financeiro",
+            "id": "colab5"
+        },
+      {
+            "nome": "Carlos",
+            "funcao": "Atendente de Loja",
+            "area": "Fundo de Loja",
+            "id": "colab6"
+        },
+    ]
 }
